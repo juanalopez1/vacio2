@@ -45,26 +45,6 @@ const swaggerOpts: SwaggerOptions = {
     // consumes: ["application/json"],
     // produces: ["application/json"],
     tags: [
-      {
-        name: "auth",
-        description: "Endpoints para autenticación..",
-      },
-      {
-        name: "usuarios",
-        description: "Endpoints para CRUD de usuarios.",
-      },
-      {
-        name: "tareas-usuario",
-        description: "Endpoints para CRUD de tareas de un usuario.",
-      },
-      {
-        name: "tareas-asignadas",
-        description: "Endpoints para CRUD de tareas asignadas a un usuario.",
-      },
-      {
-        name: "tareas",
-        description: "Endpoints para CRUD de tareas.",
-      },
     ],
   },
   hideUntagged: true,
