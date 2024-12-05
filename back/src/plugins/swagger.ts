@@ -6,16 +6,13 @@ import swaggerui from "@fastify/swagger-ui";
 const swaggerOpts: SwaggerOptions = {
   openapi: {
     info: {
-      title: "API PARCIAL",
-      summary:
-        "Summary: Api creado para el parcil 1 de Desarrollo web y mobile.",
-      description: "Api creado para el parcil 1 de Desarrollo web y mobile.",
+      title: "Ambiente vacio juana",
       termsOfService: `http://aca.va.la.url.con.los.terminos.y.condiciones`,
       version: "1.0",
       contact: {
-        name: "JMELNIK",
+        name: "juana",
         url: "http://www.example.com/support",
-        email: "jorge.melnik@ucu.edu.uy",
+        email: "juanaxlopez1@gmail.com",
       },
       license: {
         name: "Apache 2.0",
