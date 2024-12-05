@@ -42,6 +42,10 @@ const swaggerOpts: SwaggerOptions = {
     // consumes: ["application/json"],
     // produces: ["application/json"],
     tags: [
+      {
+        name: "Gatitos",
+        description: "Rutas de los gatitos",
+      },
     ],
   },
   hideUntagged: true,

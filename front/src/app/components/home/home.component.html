@@ -1,0 +1,8 @@
+<h1>Bienvenido a la pagina de gatitos! (solo hay gatitos lindos)</h1>
+<br>
+@for (gati of this.catsList(); track $index){
+    <h3><b>nombre:</b> {{gati.nombre}}</h3>
+    <h4><b>raza:</b>{{gati.raza}}</h4>
+    <h4><b>fecha de nacimiento:</b> {{gati.fecha_nacimiento}}</h4>
+    <br>
+}
