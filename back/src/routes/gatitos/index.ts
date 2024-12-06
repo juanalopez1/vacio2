@@ -7,14 +7,14 @@ const gatitosRoutes: FastifyPluginAsync = async (
   fastify,
   opts
 ): Promise<void> => {
-  fastify.get("/all", {
+  fastify.get("/", {
     schema: {
       summary: "Listado de gatitos.",
       description: "Trae todos los gatitos",
       tags: ["Gatitos"],
       response: {
         200: {
-          description: "Lista de tareas completo.",
+          description: "Lista de gatitos completo.",
           content: {
             "application/json": {
               schema: Type.Array(GatitoSchema),
